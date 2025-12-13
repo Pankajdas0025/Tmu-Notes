@@ -23,7 +23,7 @@ html
 
 body{
 padding: 20px;
-background: rgb(255, 255, 255);font-family: var(--font);
+background: rgb(0, 0, 0);font-family: var(--font);
 
 }
 main{
@@ -34,21 +34,20 @@ main{
 /* Header ----------------------------------------------------------*/
 header
 {
-    /* height: 120px;
-    width: 100%; */
+
     position:sticky;
     top: 0px;
     z-index: 100;
-   background:var(--header-footer--bg);
+   background-color:rgba(10 ,0,0,0.5);
    width: 100%;
    right:0;
    overflow: hidden;
-    /* backdrop-filter:blur(95px);
+  backdrop-filter:blur(95px);
     z-index: 1;
     top: 0;
     left: 0;
     right: 0;
-    overflow: hidden; */
+    overflow: hidden;
 }
 
 #Mobmenu
@@ -95,7 +94,7 @@ header button{
 .SC1{
 
     height: 600px;
-    /* background-color: rgb(217, 217, 217); */
+    background-color: rgb(158, 152, 38, 0.5);
 
 
 
@@ -112,7 +111,7 @@ header button{
 }#TMU{
     /* height: 200px;
     width: 200px; */
-    box-shadow: 2px 2px 4px black;
+
     scroll-behavior: smooth;
     margin-left: 100px;
 }
@@ -353,7 +352,7 @@ transition: 0.5s ease-in-out;
 
     .SC6 .foter-div1 a:hover
   {
-transform: translateX(20px);
+color: #798193;
   }
   /* Section  six for footer  ------------------------------------------------------------------------end-----*/
 
@@ -367,24 +366,31 @@ transform: translateX(20px);
     body
     {
       margin: 0;
-      padding: 5px;
+      padding: 0px;
       font-size: 5px;
+      overflow-x: hidden;
 
     }
     main
     {
 
-      width: 100vw;
+      min-width:100vw;
+      width: 100%;
+      overflow-x: hidden;
       height: auto;
       display: block;
       font-size: 10px;
+      position: absolute;
+
     }
     header
 
     {
 height: 80px;
 width: 100vw;
+background:var(--header-footer--bg);
 margin: 0;
+z-index: 999;
 
     }
 
@@ -543,11 +549,17 @@ about Section  ----------------------------------*/
 
 .SC4{
   height: auto;
-  width:100vw;
-  font-size: 45px;
-  padding: 0;
+  min-width:100vw;
+  font-size: 25px;
+  padding: 0 15px;
+  word-wrap: break-word;
+  word-break: break-all;
   margin: 0;
   background-color: transparent;;
+}.flip-box-inner
+
+{
+  width:90%;
 }
 
 .flip-box {
@@ -599,6 +611,7 @@ Reference Section  ------------------------------------------------------- */
   flex-wrap: wrap;
 
 
+
 }.SC5 a
 {
   padding: 0 2px;
@@ -613,6 +626,7 @@ Reference Section  ------------------------------------------------------- */
     font-size: 15px;
     display: block;
     padding: 0;
+
 
 
   }.SC6 .foter-div1
