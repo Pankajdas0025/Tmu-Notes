@@ -3,10 +3,10 @@
 </a>
 
 
-### 📑Subject-wise notes & references
+### Subject-wise notes & references
 
-### 🔗Direct links to Google Drive resources
+### Direct links to Google Drive resources
 
-### 🎓Useful for exam prep and revisions
+### Useful for exam prep and revisions
 
-### 🤝Open to contributions for adding more notes
+### Open to contributions for adding more notes
